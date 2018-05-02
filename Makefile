@@ -1,6 +1,6 @@
 PROJECT = emq-relx
 PROJECT_DESCRIPTION = Release Project for the EMQ Broker
-PROJECT_VERSION = 2.2
+PROJECT_VERSION = 2.2.1
 
 ## Fix 'rebar command not found'
 DEPS = goldrush
@@ -13,7 +13,7 @@ DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
         emq_lua_hook
 
 # emq deps
-dep_emqttd        = git https://github.com/emqtt/emqttd v2.2.0
+dep_emqttd        = git https://github.com/vidhill/emqttd v2.2.1
 dep_emq_modules   = git https://github.com/emqtt/emq-modules v2.2.0
 dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard v2.2.0
 dep_emq_retainer  = git https://github.com/emqtt/emq-retainer v2.2.0
